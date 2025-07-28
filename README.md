@@ -27,10 +27,6 @@ Sportify is a full-stack web application that allows users to host, discover, an
 - **Utilities:** React Toastify, Geolocation API
 
 ---
-✅ COPY THIS (Don’t change anything):
-<pre> ## 📁 Folder Structure ``` sportify/ ├── client/ # React frontend ├── server/ # Express backend │ ├── config/ │ ├── controllers/ │ ├── middleware/ │ ├── models/ │ ├── routes/ │ ├── .env # Not pushed (listed in .gitignore) │ └── .env.example # Safe reference ├── .gitignore └── README.md ``` </pre>
-
----
 
 ## 🚀 How to Run Locally
 
@@ -45,6 +41,7 @@ cd sportify
 cd server
 npm install
 npm run dev
+```
 
 
 ## 🎨 Frontend Setup
@@ -53,6 +50,7 @@ npm run dev
 cd client
 npm install
 npm start
+```
 
 
 ### 🔐 Environment Setup
@@ -63,6 +61,7 @@ Create a `.env` file inside `/server` with the following:
 MONGO_URI=your-mongodb-uri
 JWT_SECRET=your-secret-key
 PORT=5000
+```
 
 
 ## 🛡 License
